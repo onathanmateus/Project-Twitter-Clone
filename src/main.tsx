@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './global.css'
+
 import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, Sparkle, User } from 'phosphor-react'
 
 import twitterLogo from './assets/logo-twitter.svg'
@@ -45,7 +47,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           </a>
         </nav>
 
-        <button className='new-tweet' type='button'></button>
+        <button className='new-tweet' type='button'>Tweet</button>
       </aside>
       <div className="content">
         <main className='timeline'>
