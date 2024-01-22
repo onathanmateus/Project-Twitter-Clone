@@ -22,7 +22,7 @@
 .tweet .tweet-content .tweet-content-header {
   display: flex;
   align-items: center;
-  gap: 025rem;
+  gap: 0.25rem;
 }
 
 .tweet .tweet-content .tweet-content-header span {

@@ -2,6 +2,7 @@ import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House,
 import twitterLogo from '../assets/logo-twitter.svg'
 
 import './Sidebar.css'
+import { NavLink } from 'react-router-dom'
 
 export function Sidebar() {
   return (
@@ -9,10 +10,10 @@ export function Sidebar() {
       <img className='logo' src={twitterLogo} alt="logo" />
 
       <nav className='main-navigation'>
-        <a className='active' href="">
+        <NavLink to="/">
           <House weight='fill'/>
           Home
-        </a>
+        </NavLink>
         <a href="">
           <Hash />
           Explore
